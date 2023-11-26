@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: orange;
+font-size: 2rem;
+  padding: .6rem 2rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, blue, green);
+  border-radius: 100px;
+  box-shadow: rgba(1000, 1000, 1110, 2) 0px 7px 29px 0px;
+  cursor: pointer;
+  border:none;
+
+  margin:0rem auto;
+  padding: 1px 1rem;
+
+  
+  
+ 
+}
+
+.container {
+  max-width: 45rem;
+  margin: 1rem auto;
+  padding: 1px 2rem;
+  border: 10px solid;
+ background-image:url("krish3.jpg");
+
+  background: linear-gradient(to right, blue, green);
+  border-radius: 10px;
+  box-shadow: rgba(1000, 1000, 1110, 2) 0px 7px 29px 0px;
+  cursor: pointer;
+  border: none;
+ 
+
+}
+
+.main-heading {
+  font-size: 5rem;
+  margin: 2rem 0rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+/* form section */
+.form-class {
+  margin: 2rem 0px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-field {
+  margin: 1rem 0px 0.6rem;
+}
+
+.field-head {
+  font-size: 2rem;
+}
+
+.input-div {
+  margin-bottom: 1rem;
+}
+
+.field-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.form-control-input {
+  font-size: 1.5rem;
+  padding: 0.4rem 0px;
+  text-indent: 0.5rem;
+  border: none;
+  outline: 1px solid #999;
+  border-radius: 7px;
+  width: 100%;
+  color: #999;
+}
+option {
+  color: #999;
+}
+.radio {
+  outline: none;
+}
+
+.form-control-input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.help-text {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  padding: 0.1rem;
+}
+
+
+
+h1 {
+font-size:4rem;
+}
+.container::before{
+ content:'';
+ position: absolute;
+ top:-50%
+ left:-50%;
+ width:380px;
+height:420px;
+background-color:linear-gradient<0dem,transparent,
+  transparent,#45f3ff,#45f3ff,#45f3ff);
+  z-index: 1;
+  animation: animagte;
+}
+button{
+font-size: 2rem;
+  padding: .6rem 2rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, blue, green);
+  border-radius: 100px;
+  box-shadow: rgba(1000, 1000, 1110, 2) 10px 7px 20px 0px;
+  cursor: pointer;
+  border: none;
+  align-items:center;
+  justify-content:center;
+  align-items:center;
+  
+}
+  
+
+  
